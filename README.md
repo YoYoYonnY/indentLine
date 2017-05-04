@@ -70,6 +70,12 @@ See the [VIM Reference Manual](http://vimdoc.sourceforge.net/htmldoc/version7.ht
 let g:indentLine_enabled = 0
 ```
 
+**Disable completely**
+
+```
+let g:indentLine_loaded = 1
+```
+
 ### Commands
 `:IndentLinesToggle` toggles lines on and off.
 
